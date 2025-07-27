@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charans portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/12e4f9fa81.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-arrow-right" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text"></div>
+
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>Vithya</span> <br>charan from Bangalore</h1>
+
+    </div>
+  </div>
+  <br>
+  <!----------about----------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/vc.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About </h1><br>
+          <p>A Fresh and Enthusiastic mind with good Design and communication skill who wishes to
+            learn and develop knowledge in the technology field and contribute to the
+            organisations development</p><br>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links"onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li><br>
+                <li><span>Website</span><br>Web app Designing & Development</li><br>
+                <li><span>Application Designing</span><br>Application Design Android/iOS</li><br>
+              </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2025(Jan-May)</span><br>Ui/Ux Design <br>Design boat Ui/Ux School Bangalore</li><br>
+              <li><span>2024(Aug-Oct)</span><br>Html & Css <br>Code camp(Online)</li><br>
+              <li><span>(2021 - 2024)</span><br>Bachelor of Commerce <br>Dr G R Damodaran college of science Coimbatore</li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------Services----------  -->
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Capabilities</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i><br>
+          <h2>Web Design</h2>
+          <p>Clean, responsive, and modern web design.
+            Focused on usability and smooth interactions.
+            Creating intuitive, user-first interfaces.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-figma"></i><br>
+          <h2>UI/UX Design</h2>
+          <p>Thoughtful, user-centered UI/UX design.
+            Focused on clarity, flow, and functionality.
+            Designing intuitive and engaging experiences.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i><br>
+          <h2>Application Design</h2>
+          <p>Modern, user-friendly application design.
+            Focused on seamless navigation and usability.
+            Creating smooth, intuitive app experiences.</p>
+            <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+   </div>
+  
+  <!-- --------Portfolio---------  -->
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work</h1>
+      <div class="work-list">
+        
+        <div class="work">
+          <img src="images/Casestudy.png">
+          <div class="layer">
+            <h3>UX Case Study</h3>
+            <p>A thrifting app that uses AI to simplify buying, selling.</p>
+            <a href="https://www.behance.net/gallery/226208015/Ux-case-study"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/ios.png">
+          <div class="layer">
+            <h3>IOS Presentation</h3>
+            <p>A sleek, intuitive iOS app that makes thrifting smarter with AI. </p>
+            <a href="https://www.behance.net/gallery/225775907/Ios-presentation-(Thrift-application)"><i class="fa-solid fa-arrow-up-right-from-square"></i></a><br>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/android.png">
+          <div class="layer">
+            <h3>Android Presentation</h3>
+            <p>An AI-powered Android app for effortless buying and selling of pre-loved goods.</p>
+            <a href="https://www.behance.net/gallery/225775533/Android-Presentation-(Thrift-app)"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/website.png"> <div class="layer">
+            <h3>Website Presentation</h3>
+            <p>A clean, landing page that showcases smart thrifting made simple.</p>
+            <a href="https://www.behance.net/gallery/225774093/Website-Presentation"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        </div>
+        <a href="https://www.behance.net/vizalvizal" class="btn">See more</a>
+      </div>
+    </div>
+   </div>
+   <!-- ----------contact---------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact </h1>
+            <p><i class="fa-regular fa-paper-plane"></i>vizalvizal18@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9159973180</p>
+            <div class="social-icons">
+            <a href="https://www.linkedin.com/in/vithya-charan-i-866b60368/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.behance.net/vizalvizal"><i class="fa-brands fa-behance"></i></a>
+            </div>
+            <a href="images/Mynewresume.pdf" download class="btn btn2">Download Cv</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+              <span id="msg"></span>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p> © 2024 Vithya Charan I. Designed and developed with passion. All rights reserved.</p>
+      </div>
+    </div>
+
+
+
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+  </script>
+  <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+
+
+  </script>
+  <form name="submit-to-google-sheet">
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwnFQxI3ej81KGFpH3CMlIkZTUFw-pxOme7ZpUR10W0WADNaIknx4LHMiyPzts5T3eLoA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully💡"
+          setTimeout (function(){
+            msg.innerHTML =""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+  </body>
+</html>
